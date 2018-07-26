@@ -85,7 +85,7 @@ export default class RadarChart extends Component
     const colorsFill = self.props.options.fill
     const curves = chart.curves.map(function (c, i) {
       const color = colorsFill instanceof Array ? colorsFill[i] : colorsFill;
-      return (<Path key={i} d={c.polygon.path.print()} fill={color} fillOpacity={0.6} />)
+      return (<Path key={i} d={c.polygon.path.print()} stroke={color} fill={color} fillOpacity={0.5} />)
     })
 
     const length = chart.rings.length
