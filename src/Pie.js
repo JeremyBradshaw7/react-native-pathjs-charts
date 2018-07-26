@@ -20,6 +20,7 @@ import Svg,{ G, Path, Text, Circle} from 'react-native-svg'
 import { Colors, Options, cyclic, identity, fontAdapt } from './util'
 import _ from 'lodash'
 const Pie = require('paths-js/pie')
+import 'babel-polyfill'
 
 const ANIMATION_START_DELAY = 1000;
 

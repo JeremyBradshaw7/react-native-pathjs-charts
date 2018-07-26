@@ -45,6 +45,7 @@ import RadarChartBasic from './radar/RadarChartBasic'
 import TreeChartBasic from './tree/TreeChartBasic'
 
 import Home from './Home'
+import 'babel-polyfill'
 
 const styles = StyleSheet.create({
   container: {
